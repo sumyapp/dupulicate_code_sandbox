@@ -1,0 +1,47 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/log/*
+!/log/.gitkeep
+/tmp/*
+!/tmp/maintenance.yml
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+/spec/examples.txt
+rerun.txt
+pickle-email-*.html
+.project
+.DS_Store
+tags
+.idea
+npm-debug.log*
+/node_modules/
+/public/sitemap.*
+/public/assets/
+.env
+.env.local
+.env.*.local
+.vscode/*
+.log
+
+# Ignore application configuration
+/config/application.yml
+
+# Ignore auto generated file
+/frontend/dist/
+/frontend/**/i18n/*
+!/frontend/**/i18n/.keep
+
+# Ignore
+dump.rdb
+
+.vagrant
+cookbooks/
+/.forego
